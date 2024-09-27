@@ -79,7 +79,9 @@ db.collection.find()
 for the above we did't pass any argument in that time it will give first 20 document of perticular collection
 
 **if we want only specific field**
-```db.detailes.find({"college_code":"001"},{"college_name":1})```
+```
+db.detailes.find({"college_code":"001"},{"college_name":1})
+```
 
 Here we will get only the document which has only college_name 
 <br>
@@ -90,12 +92,16 @@ Here we will get only the document which has only college_name
 ## count method 
 which will give the count of the document
 **Example**
-```db.detailes.find().count()```
+```
+db.detailes.find().count()
+```
 it will work same for argument passed also
 ## limit method
 if we want to limit the output 
 **Example**
-```db.detailes.find().limit(3)```
+```
+db.detailes.find().limit(3)
+```
 for the above i will get first 3 document only
 
 
