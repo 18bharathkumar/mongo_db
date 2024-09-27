@@ -104,4 +104,13 @@ db.detailes.find().limit(3)
 ```
 for the above i will get first 3 document only
 
+## Sort method
+```
+db.detailes.find().sort({college_code:1})
+```
+1 means ascending order 
+<br>
+-1 means descending order
+
+
 
