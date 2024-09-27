@@ -66,3 +66,15 @@ db.collection.insertMany([
     }
 ])
 ```
+## how to filter 
+**Example**
+```
+db.detailes.find({"college_code":"001"})
+```
+The above will give the document in which the college_code is 001
+
+```
+db.collection.find()
+``` 
+for the above we did't pass any argument in that time it will give first 20 document of perticular collection
+
